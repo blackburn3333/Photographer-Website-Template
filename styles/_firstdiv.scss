@@ -1,0 +1,6 @@
+.first_div{
+  p{
+    @include font_color($white);
+    @include font_face(Megrim)
+  }
+}

@@ -1,0 +1,16 @@
+/* For mobile phones: */
+.main_div {
+  /* The image used */
+  background-image: url("res/images/backgroundmobile.jpg");
+}
+
+.first_div{
+  p{
+    @include font_size(2em);
+  }
+}
+
+.arrowgif{
+  width: 10%;
+}
+

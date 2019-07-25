@@ -1,0 +1,25 @@
+@import "parallax";
+@import "fonts";
+@import "colors";
+@import "mixins";
+@import "materialicons";
+@import "affix";
+@import "containers";
+@import "firstdiv";
+@import "navbar";
+@import "services";
+@import "photofolio";
+@import "footer";
+@import "responsiveTablet";
+@import "responsiveMobile";
+@import "responsiveDesktop";
+
+body{
+  background-color: $black;
+}
+
+.social-icon{
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 15%
+}

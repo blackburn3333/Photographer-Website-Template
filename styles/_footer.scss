@@ -1,0 +1,5 @@
+.footer-para{
+  @include font_face(Megrim);
+  @include font_color($white);
+  @include font_size(0.8em);
+}

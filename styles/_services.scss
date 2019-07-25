@@ -1,0 +1,18 @@
+
+.title-text{
+  @include font_size(1.6em);
+  @include font_face(Megrim);
+  @include font_color($white);
+}
+
+.sub-title{
+  @include font_size(0.9em);
+  @include font_face(Oswald-Light);
+  @include font_color($white);
+}
+
+.description-text{
+  @include font_size(0.9em);
+  @include font_face(Roboto-Thin);
+  @include font_color($primary-color);
+}

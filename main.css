@@ -1,0 +1,198 @@
+.main_div {
+  /* The image used */
+  background-image: url("res/images/backgroundDesktop.jpg");
+  /* Full height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(./res/fonts/Roboto-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(./res/fonts/Roboto-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./res/fonts/Roboto-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Megrim;
+  src: url(./res/fonts/Megrim/Megrim.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oswald-Light;
+  src: url(./res/fonts/Oswald/Oswald-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Righteous;
+  src: url(./res/fonts/Righteous/Righteous-Regular.tff) format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+.rowfullhight {
+  height: 100vh;
+}
+
+.rownintyhight {
+  height: 90vh;
+}
+
+.first_div p {
+  color: #FFFFFF;
+  font-family: Megrim;
+}
+
+.nav-cus {
+  background-color: #000000;
+}
+.nav-cus a {
+  color: #FFFFFF;
+  font-family: Oswald-Light;
+}
+
+.nav-cus {
+  top: -80px;
+  /* Hide the navbar 50 px outside of the top view */
+  width: 100%;
+  /* Full width */
+  transition: top 1s;
+  /* Transition effect when sliding down (and up) */
+}
+
+.title-text {
+  font-size: 1.6em;
+  font-family: Megrim;
+  color: #FFFFFF;
+}
+
+.sub-title {
+  font-size: 0.9em;
+  font-family: Oswald-Light;
+  color: #FFFFFF;
+}
+
+.description-text {
+  font-size: 0.9em;
+  font-family: Roboto-Thin;
+  color: #C70039;
+}
+
+.photo-container {
+  padding: 0;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photoimg {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photoimg:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.footer-para {
+  font-family: Megrim;
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px) {
+  .main_div {
+    /* The image used */
+    background-image: url("res/images/backgroundDesktop.jpg");
+  }
+
+  .first_div p {
+    font-size: 2em;
+  }
+}
+/* For mobile phones: */
+.main_div {
+  /* The image used */
+  background-image: url("res/images/backgroundmobile.jpg");
+}
+
+.first_div p {
+  font-size: 2em;
+}
+
+.arrowgif {
+  width: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main_div {
+    /* The image used */
+    background-image: url("res/images/backgroundDesktop.jpg");
+  }
+
+  .first_div p {
+    font-size: 3em;
+  }
+
+  .arrowgif {
+    width: 7%;
+  }
+
+  .spanNavIoc {
+    display: none;
+  }
+}
+body {
+  background-color: #000000;
+}
+
+.social-icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 15%;
+}
+
+/*# sourceMappingURL=main.css.map */

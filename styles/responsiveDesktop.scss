@@ -1,0 +1,21 @@
+@media only screen and (min-width: 768px) {
+  .main_div {
+    /* The image used */
+    background-image: url("res/images/backgroundDesktop.jpg");
+  }
+
+  .first_div{
+    p{
+      @include font_size(3em);
+    }
+  }
+
+  .arrowgif{
+    width: 7%;
+  }
+
+  .spanNavIoc{
+    display: none;
+  }
+}
+

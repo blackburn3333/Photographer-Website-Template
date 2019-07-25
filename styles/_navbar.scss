@@ -1,0 +1,15 @@
+.nav-cus{
+  background-color: $black;
+  a {
+    @include font_color($white);
+    @include font_face(Oswald-Light);
+  }
+
+
+}
+
+.nav-cus {
+  top: -80px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 1s; /* Transition effect when sliding down (and up) */
+}

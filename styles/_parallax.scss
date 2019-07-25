@@ -1,0 +1,13 @@
+.main_div {
+  /* The image used */
+  background-image: url('res/images/backgroundDesktop.jpg');
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
